@@ -1,0 +1,82 @@
+#myCarousel{
+  border: 4px solid #47260F;
+  margin-top: 10%;
+}
+
+.main{
+  background: url('https://previews.123rf.com/images/kudryashka/kudryashka1112/kudryashka111200018/11476201-Coffee-time-seamless-background-for-your-design-Stock-Vector.jpg') center center fixed;
+  min-width: 100%;
+  min-height: 100%;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-repeat: repeat;
+}
+
+.social{
+
+}
+
+.social h3{
+      font-family: "Helvetica Neue";
+      color: #47260F;
+      text-align: center;
+}
+
+#facebook_png{
+  margin-top: -15%;
+margin-right: 15%;
+}
+
+#google_png{
+  margin-top: -15%;
+  margin-left: 15%;
+}
+
+#twitter_png{
+margin-top: 10%;
+margin-right: 15%;
+}
+
+#youtube_png{
+margin-top: 10%;
+margin-left: 15%;
+}
+
+.date h3{
+      font-family: "Helvetica Neue";
+      color: #47260F;
+      text-align: center;
+}
+
+.date p{
+  margin-top: -10px;
+  font-family: "Helvetica Neue";
+  font-size: 13px;
+  color: #47260F;
+  text-align: center;
+}
+
+.home h4{
+  font-family: "Helvetica Neue";
+  color: #47260F;
+  text-align: center;
+}
+.footer{
+position: absolute;
+right: 0;
+bottom: 0;
+left: 0;
+padding: 1rem;
+background-color: #efefef;
+text-align: center;
+}
+
+.panel-default {
+  border-color: #47260F;
+}
+.panel-default > .panel-heading {
+  color: white;
+  background-color: #47260F;
+  border-color: #47260F;
+}
