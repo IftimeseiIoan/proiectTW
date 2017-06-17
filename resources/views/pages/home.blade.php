@@ -1,6 +1,6 @@
 @extends('main')
 
-@section('title','| Home')
+@section('title','| Acasa')
 
 @section('header')
   <div class="blurred-container">
@@ -12,7 +12,7 @@
   <div class="row">
 			<div class="col-md-1"></div>
 			<div class="col-md-10">
-				<div class="home" style="border: 4px solid #47260F;background-color:white;margin-top:10%;">
+				<div class="home" style="border: 4px solid #47260F;background-color:white;margin-top:10%;padding:12px;">
 					<h4>Drag prieten, fii binevenit!</h4>
 					<p style="text-align: justify;">
 					&nbsp;&nbsp;Atmosfera relaxanta si prietenoasa , aroma inconfundabila a preparatelor pe baza de cafea&nbsp; precum si meniul rafinat,&nbsp; fac din Roland Café 1811 locul ideal fie pentru a savura,incepand chiar de la prima ora a diminetii, o ceasca de cafea aburinda sau o ciocolata traditionala, citind presa, fie de a te bucura de un mic dejun frantuzesc sau international, pregatit cu maxima atentie, precum si locul ideal al intalnirilor de afaceri de la pranz sau de dupa-amiaza, dar si locul unde poti petrece seri relaxante si pline de romantism alaturi de cei dragi care cu siguranta vor aprecia&nbsp; savoarea gustarilor frantuzesti alaturi o sticla de vin, un cocktail sau o tigara de foi…<br>
@@ -101,7 +101,7 @@
 							<br/>
 						</div>
 
-						<div class="date" style="border: 4px solid #47260F;background-color:white;margin-top:10%;">
+						<div class="date" style="border: 4px solid #47260F;background-color:white;margin-top:10%;padding:0px 10px">
 							<h3>Date contact</h3>
 							<p>Adresa:Bulevardul Carol I, Nr.11, 700506, Iaşi, România</p>
 							<p>Telefon: 0232 20 1000</p>

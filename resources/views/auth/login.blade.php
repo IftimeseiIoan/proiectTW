@@ -4,8 +4,8 @@
 
 @section('content')
 <div class="container" style="height:94.7vh;">
-    <div class="row" style="margin-top:20%;">
-        <div class="col-md-8 col-md-offset-2">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2" style="margin-top:20%;">
             <div class="panel panel-default">
                 <div class="panel-heading">Login</div>
                 <div class="panel-body">

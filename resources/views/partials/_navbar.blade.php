@@ -23,28 +23,21 @@
 										<li>
 											<a href="/">
 												<i class="pe-7s-home"></i>
-												<p>Home</p>
+												<p>Acasa</p>
 											</a>
 										</li>
-										<li class="dropdown">
-													<a class="dropdown-toggle" data-toggle="dropdown">
+										<li>
+													<a href="/meniu">
 																<i class="pe-7s-news-paper"></i>
-																<p>Meniu <b class="caret"></b></p>
+																<p>Meniu</p>
 														</a>
-													<ul class="dropdown-menu">
-														<li><a href="#">Cafea</a></li>
-														<li><a href="#">Suc</a></li>
-														<li><a href="#">Ceai</a></li>
-														<li><a href="#">Bere</a></li>
-														<li><a href="#">Vin</a></li>
-														<li class="divider"></li>
-														<li><a href="#">Desert</a></li>
-													</ul>
 										</li>
                     @if (!Auth::guest())
   										<li>
   											<a href="#">
-  												<i class="pe-7s-shopbag"></i>
+  												<i class="pe-7s-shopbag">
+                              <span class="label" style="color:#47260F;"> {{Session::get('itemCount')}} </span>
+                          </i>
   												<p>Cos</p>
   											</a>
   										</li>
@@ -61,9 +54,16 @@
                                 <p>Account <b class="caret"></b></p>
                             </a>
                           <ul class="dropdown-menu">
-														<li><a href="/register">Inregistrare</a></li>
-                            <li><a href="/login">Login</a></li>
+                            @if(Auth::guest())
+  														<li><a href="/register">Inregistrare</a></li>
+                              <li><a href="/login">Login</a></li>
+                            @endif
+
+
                             @if (!Auth::guest())
+                              <li style="text-align:center;padding:10px 10px 5px 10px;">Buna {{Auth::user()->nume}}</li>
+                              <li class="divider"></li>
+                              <li><a href="">Editare cont</a></li>
                                       <li>
                                           <a href="{{ route('logout') }}"
                                               onclick="event.preventDefault();

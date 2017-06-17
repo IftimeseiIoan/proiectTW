@@ -19,3 +19,6 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/test', 'TestController@test');
+Route::get('/meniu', function () {
+    return view('pages.meniu');
+});
