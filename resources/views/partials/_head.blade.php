@@ -5,5 +5,6 @@
   <link href="/css/pe-icon-7-stroke.css" rel="stylesheet" />
 	<link href="/css/ct-navbar.css" rel="stylesheet" />
 	<link href="/css/style.css" rel="stylesheet" />
+	<link href="/css/checkbox.css" rel="stylesheet" />
   <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
   <link href='http://fonts.googleapis.com/css?family=Grand+Hotel' rel='stylesheet' type='text/css'>

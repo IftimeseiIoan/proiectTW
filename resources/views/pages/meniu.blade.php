@@ -3,32 +3,61 @@
 @section('title','| Meniu')
 
 @section('content')
-  <div class="row" style="margin-top:10%;">
-    <div class="col-md-10 col-md-offset-1">
-      <div class="container-fluid" style="background-color:white;border:4px solid #47260F;">
-        <div class="col-md-4" style="border:4px solid #47260F;">
-          <div class="container-fluid">
-            <p>left</p>
+  <div class="row" style="margin-top:15%;height:62.8vh;">
+    <div class="col-md-10 col-md-offset-1" style="background:white;border-collapse:collapse;">
+      <div class="row">
+        <div class="col-md-2" style="border: 4px solid #47260F;border-collapse: collapse;">
+          <div class="funkyradio">
+
+            <div class="row" style="margin:0% 5%">
+              <div class="funkyradio-warning">
+                  <input type="checkbox" name="checkbox" id="checkbox1"/>
+                  <label for="checkbox1">Cafea</label>
+              </div>
+            </div>
+
+            <div class="row" style="margin:0% 5%">
+              <div class="funkyradio-warning">
+                  <input type="checkbox" name="checkbox2" id="checkbox2"/>
+                  <label for="checkbox2">Suc</label>
+              </div>
+            </div>
+
+            <div class="row" style="margin:0% 5%">
+              <div class="funkyradio-warning">
+                  <input type="checkbox" name="checkbox3" id="checkbox3"/>
+                  <label for="checkbox3">Ceai</label>
+              </div>
+            </div>
+
+            <div class="row" style="margin:0% 5%">
+              <div class="funkyradio-warning">
+                  <input type="checkbox" name="checkbox4" id="checkbox4"/>
+                  <label for="checkbox4">Bere</label>
+              </div>
+            </div>
+
+            <div class="row" style="margin:0% 5%">
+              <div class="funkyradio-warning">
+                  <input type="checkbox" name="checkbox4" id="checkbox5"/>
+                  <label for="checkbox5">Vin</label>
+              </div>
+            </div>
+
+            <div class="row" style="margin:0% 5%">
+              <div class="funkyradio-warning">
+                  <input type="checkbox" name="checkbox4" id="checkbox6"/>
+                  <label for="checkbox6">Desert</label>
+              </div>
+            </div>
+
           </div>
         </div>
-        <div class="col-md-8" style="border:4px solid #47260F;">
-          <div class="container-fluid">
-            <p>right</p>
-            <p>right</p>
-            <p>right</p>
-            <p>right</p>
-            <p>right</p>
-            <p>right</p>
-            <p>right</p>
-            <p>right</p>
-            <p>right</p>
-            <p>right</p>
-            <p>right</p>
-            <p>right</p>
-            <p>right</p>
-            <p>right</p>
-          </div>
+
+        <div class="col-md-10" style="border: 4px solid #47260F;border-collapse: collapse;">
+          <p>asd</p>
         </div>
+
       </div>
     </div>
 	</div><!--row-->
