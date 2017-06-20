@@ -80,3 +80,13 @@ text-align: center;
   background-color: #47260F;
   border-color: #47260F;
 }
+
+.menu-item{
+  margin-top:1%;
+}
+
+.menu-image{
+  margin-left:-20px;
+  margin-top:15%;
+  overflow: hidden;
+}

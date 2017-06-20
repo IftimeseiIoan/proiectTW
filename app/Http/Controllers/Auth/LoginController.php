@@ -35,7 +35,10 @@ class LoginController extends Controller
      */
     public function __construct()
     {
+        $vector=array();
         Session::put('itemCount','0');
+        Session::put('vector',$vector);
+        Session::put('pretFinal',0);
         $this->middleware('guest')->except('logout');
     }
 }

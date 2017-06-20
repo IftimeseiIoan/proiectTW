@@ -63,7 +63,11 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
+        $vector=array();
         Session::flash('succes','Contul a fost creat cu succes');
+        Session::put('itemCount','0');
+        Session::put('vector',$vector);
+        Session::put('pretFinal',0);
         return User::create([
             'NUME' => $data['name'],
             'EMAIL' => $data['email'],

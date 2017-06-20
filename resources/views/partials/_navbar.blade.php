@@ -7,8 +7,7 @@
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
+
               </button>
               <a class="navbar-brand navbar-brand-logo">
                     <div class="logo">
@@ -27,14 +26,14 @@
 											</a>
 										</li>
 										<li>
-													<a href="/meniu">
-																<i class="pe-7s-news-paper"></i>
-																<p>Meniu</p>
-														</a>
+					            <a href="/meniu">
+												<i class="pe-7s-news-paper"></i>
+												<p>Meniu</p>
+											</a>
 										</li>
                     @if (!Auth::guest())
   										<li>
-  											<a href="#">
+  											<a href="/cart">
   												<i class="pe-7s-shopbag">
                               <span class="label" style="color:#47260F;"> {{Session::get('itemCount')}} </span>
                           </i>
@@ -63,7 +62,8 @@
                             @if (!Auth::guest())
                               <li style="text-align:center;padding:10px 10px 5px 10px;">Buna {{Auth::user()->nume}}</li>
                               <li class="divider"></li>
-                              <li><a href="">Editare cont</a></li>
+                              <li><a href="/delete" onClick="alert('Contul tau va fi sters!')";>Sterge cont</a></li>
+                              <li><a href="/edit">Editare cont</a></li>
                                       <li>
                                           <a href="{{ route('logout') }}"
                                               onclick="event.preventDefault();

@@ -15,9 +15,9 @@
 				<div class="home" style="border: 4px solid #47260F;background-color:white;margin-top:10%;padding:12px;">
 					<h4>Drag prieten, fii binevenit!</h4>
 					<p style="text-align: justify;">
-					&nbsp;&nbsp;Atmosfera relaxanta si prietenoasa , aroma inconfundabila a preparatelor pe baza de cafea&nbsp; precum si meniul rafinat,&nbsp; fac din Roland Café 1811 locul ideal fie pentru a savura,incepand chiar de la prima ora a diminetii, o ceasca de cafea aburinda sau o ciocolata traditionala, citind presa, fie de a te bucura de un mic dejun frantuzesc sau international, pregatit cu maxima atentie, precum si locul ideal al intalnirilor de afaceri de la pranz sau de dupa-amiaza, dar si locul unde poti petrece seri relaxante si pline de romantism alaturi de cei dragi care cu siguranta vor aprecia&nbsp; savoarea gustarilor frantuzesti alaturi o sticla de vin, un cocktail sau o tigara de foi…<br>
+					&nbsp;&nbsp;Atmosfera relaxanta si prietenoasa , aroma inconfundabila a preparatelor pe baza de cafea&nbsp; precum si meniul rafinat,&nbsp; fac din HTTPcafé locul ideal fie pentru a savura,incepand chiar de la prima ora a diminetii, o ceasca de cafea aburinda sau o ciocolata traditionala, citind presa, fie de a te bucura de un mic dejun frantuzesc sau international, pregatit cu maxima atentie, precum si locul ideal al intalnirilor de afaceri de la pranz sau de dupa-amiaza, dar si locul unde poti petrece seri relaxante si pline de romantism alaturi de cei dragi care cu siguranta vor aprecia&nbsp; savoarea gustarilor frantuzesti alaturi o sticla de vin, un cocktail sau o tigara de foi…<br>
 					<br>
-					&nbsp;&nbsp;Cu un decor intim, in stil parizian clasic, si o capacitate de 30 de locuri, Roland Café 1811 ,&nbsp; organizeaza zile de nastere, petreceri private precum si&nbsp; seri de chansonette, blues sau jazz, piese de teatru, lansari de carte si proiectii cinematografice.<br>
+					&nbsp;&nbsp;Cu un decor intim, in stil parizian clasic, si o capacitate de 30 de locuri, HTTPcafé ,&nbsp; organizeaza zile de nastere, petreceri private precum si&nbsp; seri de chansonette, blues sau jazz, piese de teatru, lansari de carte si proiectii cinematografice.<br>
 					<br>
 					&nbsp;&nbsp;In speranta ca v-am convins ... va asteptam cu drag!</p>
 				</div>
@@ -37,31 +37,31 @@
 						    <!-- Wrapper for slides -->
 						    <div class="carousel-inner" role="listbox">
 						      <div class="item active">
-						        <img src="images/slideshow/1.jpg" alt="Chania" style="width:636px;height:400px;">
+						        <img src="images/slideshow/1.jpg" alt="image" style="width:636px;height:400px;">
 						        <div class="carousel-caption">
-						          <h3>Chania</h3>
-						          <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+						          <h3 style="color:white">Smoothie Uaic</h3>
+						          <p style="color:white">Avem placerea sa va invitam la cel mai bun smoothie din oras.</p>
 						        </div>
 						      </div>
 						      <div class="item">
-						        <img src="images/slideshow/2.jpg" alt="Chania" style="width:636px;height:400px;">
+						        <img src="images/slideshow/2.jpg" alt="image" style="width:636px;height:400px;">
 						        <div class="carousel-caption">
-						          <h3>Chania</h3>
-						          <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+						          <h3 style="color:white">Berea Fierarului</h3>
+						          <p style="color:white">O bere cu un gust puternic si amarui.</p>
 						        </div>
 						      </div>
 						      <div class="item">
-						        <img src="images/slideshow/3.jpg" alt="Flower" style="width:636px;height:400px;">
+						        <img src="images/slideshow/3.jpg" alt="image" style="width:636px;height:400px;">
 						        <div class="carousel-caption">
-						          <h3>Flowers</h3>
-						          <p>Beautiful flowers in Kolymbari, Crete.</p>
+						          <h3 style="color:white">Ceai de bambus</h3>
+						          <p style="color:white">Barmanul nostru prepara un ceai cu efect diuretic extraordinar.</p>
 						        </div>
 						      </div>
 						      <div class="item">
 						        <img src="images/slideshow/4.jpg" alt="Flower" style="width:636px;height:400px">
 						        <div class="carousel-caption">
-						          <h3>Flowers</h3>
-						          <p>Beautiful flowers in Kolymbari, Crete.</p>
+						          <h3 style="color:white">Macarons</h3>
+						          <p style="color:white">Va invitam sa gustati din biscuitii gatiti in bucataria proprie.</p>
 						        </div>
 						      </div>
 						    </div>
